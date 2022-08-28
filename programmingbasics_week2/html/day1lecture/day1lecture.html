@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Adoption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Dojo Puppy Shelter</h1>
+    <h2>View our puppies below</h2>
+    <p>note: all our puppies are registered and spayed.</p>
+
+    <div>
+        <h3>Puppy # 1: King Cav</h3>
+        <!-- use "./" if you want to use an image locally otherwise copy image link-->
+        <img src="./puppy1.jpg" alt="" height="300px">
+        <p>James the King Cav is ready for adoption. James likes blue berries</p>
+        <em>note: james the King Cav is allergic to chocolates, its deadly.</em>
+        <h4>James eats the following snack</h4>
+        <ul>
+            <li>Blue Berries</li>
+            <li>Peanut Butter</li>
+            <li>Beef Jerky</li>
+        </ul>
+        <h4>James top activities</h4>
+        <ol>
+            <li>Sleep</li>
+            <li>Walk</li>
+            <li>Eat</li>
+            <li>Play Freesbee</li>
+        </ol>
+        <!-- here is an anchor tag -->
+        <a href="www.google.com">Click here to adopt James</a>
+    </div>
+
+    <h3>Other puppy information</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Registered?</th>
+        </tr>
+        <tr>
+            <td>Charles</td>
+            <td>2</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Rex</td>
+            <td>10</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Scooby Doo</td>
+            <td>10</td>
+            <td>Yes</td>
+        </tr>
+    </table>
+
+    <h3>Have a puppy for adoption? Please fill out our form.</h3>
+    <form action="mailto:lanceagleron17@gmail.com">
+        <div>
+            <label for="ownerName">Your name:</label>
+            <input type="text" name="" id="ownerName">
+        </div>
+
+        <div>
+            <label for="ownerAge">Your Age:</label>
+            <input type="number" name="" id="ownerAge" min="0" max="200">
+        </div>
+
+        <div>
+            <label for="reason">Why do you want a pet?</label>
+            <textarea name="" id="reason" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="">Breed you are looking for:</label>
+            <select name="" id="">
+                <option selected disabled value="">Please Select a Breed</option>
+                <option value="">Cavalier</option>
+                <option value="">Terrier</option>
+                <option value="">Pomeranian</option>
+                <option value="">Dachshund</option>
+                <option value="">Pitbull</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Are you a Veteran looking for a service dog?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="vet_status" id="yes">
+            <label for="no">No</label>
+            <input type="radio" name="vet_status" id="no">
+            <label for="x">Dont worry about it</label>
+            <input type="radio" name="vet_status" id="x">
+        </div>
+
+        <div>
+            <p>Please check all the sizes of pets you are willing to adopt</p>
+            <label for="">Small</label>
+            <input type="checkbox" id="small">
+            <label for="">Medium</label>
+            <input type="checkbox" id="medium">
+            <label for="">Large</label>
+            <input type="checkbox" id="large">
+        </div>
+
+        <div>
+            <label for="">Select a Date you want to visit us!</label>
+            <input type="date" name="" id="">
+        </div>
+
+        <div>
+            <label for="">(Optional) Please select the tag color you want for the pet</label>
+            <input type="color" name="" id="">
+        </div>
+
+        <div>
+            <input type="submit" value="Schedule Appointment!">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

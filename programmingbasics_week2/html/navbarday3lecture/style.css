@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua);
+}
+
+#nav-bar {
+    background-color: rgba(5, 28, 45);
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px 0px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 600px;
+
+    justify-content: space-evenly;
+}
+#logo {
+    height: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+
+#sign-in {
+    margin-left: 100px;
+}
+
+/* by default a div has no height if it has no content
+
+if a div has content, the height is the height of its tallest content*/
